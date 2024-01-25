@@ -1,0 +1,52 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background-image: url(../img/laughing.jpg);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.widget {
+  margin: auto;
+  display: flex;
+  min-height: 350px;
+  width: 50vw;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+}
+
+button {
+  width: 50%;
+  height: 2rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  border: 3px solid #F6A537;
+  background-color: #ffffff;
+  font-weight: 700;
+}
+
+h1 {
+  width: 90%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
